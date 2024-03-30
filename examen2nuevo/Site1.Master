@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="examen2nuevo.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Encuesta2024</title>
+   
+    <link href="CSS/menucss.css" rel="stylesheet" />
+    <link href="CSS/Button.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            font-size: x-large;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <ul>
+                <li class="auto-style1"><a href="inicio.aspx">Inicio</a></li>
+                <li class="auto-style1"><a href="encuesta.aspx">Encuesta</a></li>
+                <li class="auto-style1"><a href="reporte.aspx">Reporte</a></li>
+                <li class="auto-style1"><a href="salir.aspx">Salir</a></li>
+                
+                
+            </ul>
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <footer> Derechos reservadados 2024 Cristopher Arroyo</footer>
+</body>
+    
+</html>
